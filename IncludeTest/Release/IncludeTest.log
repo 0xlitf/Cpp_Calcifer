@@ -1,0 +1,8 @@
+﻿  A.cpp
+c:\cppproject\_all\includetest\B.h(12): error C2143: 语法错误 : 缺少“;”(在“*”的前面)
+c:\cppproject\_all\includetest\B.h(12): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+  B.cpp
+c:\cppproject\_all\includetest\A.h(12): error C2143: 语法错误 : 缺少“;”(在“*”的前面)
+c:\cppproject\_all\includetest\A.h(12): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+  IncludeTest.cpp
+  stdafx.cpp

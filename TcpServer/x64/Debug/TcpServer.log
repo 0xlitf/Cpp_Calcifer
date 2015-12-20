@@ -1,0 +1,30 @@
+﻿生成启动时间为 2015/5/17 10:04:05。
+     1>项目“D:\CPPProject\_ALL\TcpServer\TcpServer.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Moc'ing server.h...
+         Moc'ing tcpclientsocket.h...
+         Moc'ing tcpserver.h...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_server.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_server.cpp, Release\moc_server.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_tcpclientsocket.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_tcpclientsocket.cpp, Release\moc_tcpclientsocket.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_tcpserver.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_tcpserver.cpp, Release\moc_tcpserver.cpp.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I. /IC:\qt\qt5.4.1\5.4\msvc2013_64_opengl\include /IC:\qt\qt5.4.1\5.4\msvc2013_64_opengl\include\QtWidgets /IC:\qt\qt5.4.1\5.4\msvc2013_64_opengl\include\QtGui /IC:\qt\qt5.4.1\5.4\msvc2013_64_opengl\include\QtNetwork /IC:\qt\qt5.4.1\5.4\msvc2013_64_opengl\include\QtCore /Idebug /I"C:\qt\qt5.4.1\5.4\msvc2013_64_opengl\mkspecs\win32-msvc2013" /Zi /nologo /W3 /WX- /Od /D _WINDOWS /D UNICODE /D WIN32 /D WIN64 /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_NETWORK_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt -Zm200 -w34100 -w34189 Debug\moc_server.cpp Debug\moc_tcpclientsocket.cpp Debug\moc_tcpserver.cpp tcpserver.cpp
+         moc_server.cpp
+         moc_tcpclientsocket.cpp
+         moc_tcpserver.cpp
+         tcpserver.cpp
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"debug\\TcpServer.exe" /NOLOGO /LIBPATH:C:\qt\qt5.4.1\5.4\msvc2013_64_opengl\lib /LIBPATH:C:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\lib /LIBPATH:C:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\lib glu32.lib opengl32.lib gdi32.lib user32.lib C:\qt\qt5.4.1\5.4\msvc2013_64_opengl\lib\qtmaind.lib shell32.lib C:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\lib\Qt5Cored.lib C:\qt\qt5.4.1\5.4\msvc2013_64_opengl\lib\Qt5Widgetsd.lib C:\qt\qt5.4.1\5.4\msvc2013_64_opengl\lib\Qt5Guid.lib C:\qt\qt5.4.1\5.4\msvc2013_64_opengl\lib\Qt5Networkd.lib C:\qt\qt5.4.1\5.4\msvc2013_64_opengl\lib\Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"debug\TcpServer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X64 "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" x64\Debug\moc_server.obj
+         x64\Debug\moc_tcpclientsocket.obj
+         x64\Debug\moc_tcpserver.obj
+         x64\Debug\main.obj
+         x64\Debug\server.obj
+         x64\Debug\tcpclientsocket.obj
+         x64\Debug\tcpserver.obj
+         TcpServer.vcxproj -> D:\CPPProject\_ALL\TcpServer\debug\TcpServer.exe
+     1>已完成生成项目“D:\CPPProject\_ALL\TcpServer\TcpServer.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.51

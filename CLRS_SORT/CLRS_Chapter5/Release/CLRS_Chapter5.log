@@ -1,0 +1,13 @@
+﻿生成启动时间为 2015/3/14 16:04:28。
+     1>项目“E:\CPPProject\CLRS_SORT\CLRS_Chapter5\CLRS_Chapter5.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\CLRS_Chapter5.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt RandomSearch.cpp
+         RandomSearch.cpp
+     1>RandomSearch.cpp(18): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>RandomSearch.cpp(43): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>已完成生成项目“E:\CPPProject\CLRS_SORT\CLRS_Chapter5\CLRS_Chapter5.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.15

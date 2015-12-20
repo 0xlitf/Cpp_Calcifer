@@ -1,0 +1,30 @@
+﻿生成启动时间为 2015/4/23 11:11:44。
+     1>项目“D:\CPPProject\_ALL\MMMF\MMMF.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MMMF.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MMMF.cpp
+         MMMF.cpp
+     1>d:\cppproject\_all\mmmf\mmmf.cpp(223): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>d:\cppproject\_all\mmmf\mmmf.cpp(224): warning C4800: “__int64”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>d:\cppproject\_all\mmmf\mmmf.cpp(251): error C3861: “__builtin_ffs”:  找不到标识符
+     1>d:\cppproject\_all\mmmf\mmmf.cpp(252): error C3861: “__builtin_ffsll”:  找不到标识符
+     1>d:\cppproject\_all\mmmf\mmmf.cpp(255): error C3861: “__builtin_clz”:  找不到标识符
+     1>d:\cppproject\_all\mmmf\mmmf.cpp(256): error C3861: “__builtin_clzll”:  找不到标识符
+     1>d:\cppproject\_all\mmmf\mmmf.cpp(257): error C3861: “__builtin_ctz”:  找不到标识符
+     1>d:\cppproject\_all\mmmf\mmmf.cpp(258): error C3861: “__builtin_ctzll”:  找不到标识符
+     1>d:\cppproject\_all\mmmf\mmmf.cpp(259): error C3861: “__builtin_parity”:  找不到标识符
+     1>d:\cppproject\_all\mmmf\mmmf.cpp(260): error C3861: “__builtin_parityll”:  找不到标识符
+     1>d:\cppproject\_all\mmmf\mmmf.cpp(261): error C3861: “__builtin_clz”:  找不到标识符
+     1>d:\cppproject\_all\mmmf\mmmf.cpp(262): error C3861: “__builtin_popcount”:  找不到标识符
+     1>d:\cppproject\_all\mmmf\mmmf.cpp(263): error C3861: “__builtin_popcountll”:  找不到标识符
+     1>d:\cppproject\_all\mmmf\mmmf.cpp(285): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+     1>d:\cppproject\_all\mmmf\mmmf.cpp(287): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+     1>d:\cppproject\_all\mmmf\mmmf.cpp(296): warning C4554: “>>”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>d:\cppproject\_all\mmmf\mmmf.cpp(308): warning C4554: “>>”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>d:\cppproject\_all\mmmf\mmmf.cpp(325): warning C4554: “>>”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>d:\cppproject\_all\mmmf\mmmf.cpp(386): warning C4244: “=”: 从“LL”转换到“int”，可能丢失数据
+     1>d:\cppproject\_all\mmmf\mmmf.cpp(387): warning C4244: “=”: 从“LL”转换到“int”，可能丢失数据
+     1>已完成生成项目“D:\CPPProject\_ALL\MMMF\MMMF.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.30

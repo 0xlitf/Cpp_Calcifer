@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DllDemo", "DllDemo\DllDemo.vcxproj", "{CD528A14-E614-46C1-930D-9030DEE5B55A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InvokeDll", "InvokeDll\InvokeDll.vcxproj", "{ECF33CB8-D469-49D6-976A-B41F85E8C000}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD528A14-E614-46C1-930D-9030DEE5B55A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CD528A14-E614-46C1-930D-9030DEE5B55A}.Debug|Win32.Build.0 = Debug|Win32
+		{CD528A14-E614-46C1-930D-9030DEE5B55A}.Release|Win32.ActiveCfg = Release|Win32
+		{CD528A14-E614-46C1-930D-9030DEE5B55A}.Release|Win32.Build.0 = Release|Win32
+		{ECF33CB8-D469-49D6-976A-B41F85E8C000}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ECF33CB8-D469-49D6-976A-B41F85E8C000}.Debug|Win32.Build.0 = Debug|Win32
+		{ECF33CB8-D469-49D6-976A-B41F85E8C000}.Release|Win32.ActiveCfg = Release|Win32
+		{ECF33CB8-D469-49D6-976A-B41F85E8C000}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

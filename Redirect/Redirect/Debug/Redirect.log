@@ -1,0 +1,24 @@
+﻿生成启动时间为 2015/4/10 14:41:08。
+     1>项目“D:\CPPProject\Redirect\Redirect\Redirect.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_redirect.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_redirect.cpp, GeneratedFiles\Release\moc_redirect.cpp.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\include\QtCore /IC:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\include\QtGui /IC:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\include\QtTest /IC:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\include\ActiveQt /IC:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\include\QtHelp /IC:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\include\QtOpenGL /IC:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_TESTLIB_LIB /D QT_HELP_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Redirect.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_redirect.cpp main.cpp redirect.cpp
+         moc_redirect.cpp
+         main.cpp
+         redirect.cpp
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\include\QtCore /IC:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\include\QtGui /IC:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\include\QtTest /IC:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\include\ActiveQt /IC:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\include\QtHelp /IC:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\include\QtOpenGL /IC:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_TESTLIB_LIB /D QT_HELP_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_redirect.cpp
+         qrc_redirect.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CPPProject\_ALL\Win32\Debug\\Redirect.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\plugins\platforms /LIBPATH:C:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Testd.lib Qt5AxContainerd.lib Qt5AxBased.lib Qt5Helpd.lib Qt5OpenGLd.lib opengl32.lib glu32.lib Qt5Widgetsd.lib Qt5AxBase.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\CPPProject\_ALL\Win32\Debug\Redirect.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\CPPProject\_ALL\Win32\Debug\Redirect.lib" /MACHINE:X64 /SAFESEH Debug\Redirect.res
+         Debug\moc_redirect.obj
+         Debug\qrc_redirect.obj
+         Debug\main.obj
+         Debug\redirect.obj
+         Debug\stdafx.obj
+     1>Debug\moc_redirect.obj : fatal error LNK1112: 模块计算机类型“X86”与目标计算机类型“x64”冲突
+     1>已完成生成项目“D:\CPPProject\Redirect\Redirect\Redirect.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.65

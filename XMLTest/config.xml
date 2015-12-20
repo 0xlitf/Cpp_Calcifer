@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LKJ>
+  <!--版本号：LKJ2000-->
+  <!--硬盘数据库的路径-->
+  <!--<DbPath>D:/Zero_Storage/prj/LKJ2000/沈阳数据/SY_ZS(JanCustomize).db</DbPath>-->
+  <!--<DbPath>D:\Zero_Storage/prj/LKJ2000/29线数据/Jn_29(JanCustomize).db</DbPath>-->
+  <DbPath DefaultName="dmkf.db">
+    <Roadway dbname="dmkf_JN.db">0029</Roadway>
+    <Roadway dbname="dmkf_XiAn.db">0028,0026</Roadway>
+    <Roadway dbname="dmkf_SY.db">0039,0040,0041,0042,0043,0044,0046,0047</Roadway>
+    <Roadway dbname="dmkf_NC.db">00301,00302</Roadway>
+    <Roadway dbname="dmkf_NC.db">00402,00403,00401</Roadway>
+    <Roadway dbname="JN2012_11_12.db">00404</Roadway>
+    <Roadway dbname="dmkf_LZ.db">0053</Roadway>
+  </DbPath>
+  <!--运记显示的最大速度值，来决定画刻度线-->
+  <MaxSpeed>210</MaxSpeed>
+  <StartFormHintPos>0</StartFormHintPos>
+  <SoundPath>D:/workspace/trains/scene/lkjSource/Sound/</SoundPath>
+  <!--IC卡串口-->
+  <Com>COM5</Com>
+  <!--运记启动时所处的运行模式: 1降级、2出入段、3调车、4监控、5ATP、6退出-->
+  <RunModel value="1">
+    <!--降级: 当前位置限速-->
+    <Degrade currSpeedLimit="85"/>
+    <!--出段-->
+    <IOSection/>
+    <!--调车-->
+    <SwitchVoiture/>
+    <!--监控：起始查询数据库ID91434  83992-->
+    <WatchRun startSignalId="91455"/>
+    <!--ATP-->
+    <ATP startSignalId="76"/>
+  </RunModel>
+  <!--各车型所用的手柄，等通道不一样，导致lkj不通用，通过加载下面的通道来解决该问题-->
+  <CommonChannels>
+    <!--机车手柄-->
+    <JiCheShouBing name="MC_01"/>
+    <!--轮对方向-->
+    <LunDuiFangXiang name="LKJWHEELDIRECTION"/>
+    <!--换向手柄-->
+    <HuanXiangShouBing name="DS_01"/>
+  </CommonChannels>
+  <!--下面配置一些关于各个车型对于某些功能屏蔽的信息-->
+  <Special>
+    <!--是否屏蔽周期警惕功能，1表示屏蔽-->
+    <Element name ="ZhouQiJingTi">0</Element>
+  </Special>
+
+  <Mapping_jiaoluhao>
+    <!--区段号映射-->
+    <Element name ="11">21</Element>
+    <Element name ="12">22</Element>
+    <Element name ="13">23</Element>
+  </Mapping_jiaoluhao>
+
+  <Mapping_chezhanhao>
+    <!--车站号映射-->
+    <Element name ="11">21</Element>
+    <Element name ="12">22</Element>
+    <Element name ="13">23</Element>
+  </Mapping_chezhanhao>
+</LKJ>

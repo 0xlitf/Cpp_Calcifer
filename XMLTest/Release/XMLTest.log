@@ -1,0 +1,16 @@
+﻿生成启动时间为 2015/7/7 11:37:23。
+     1>项目“C:\CPPProject\_ALL\XMLTest\XMLTest.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I. /IC:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\include\QtCore /IC:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\include\QtXml /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_XML_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Release\XMLTest.res" XMLTest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\CPPProject\_ALL\Win32\Release\\XMLTest.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.4.1\5.4\msvc2013_64_opengl\lib qtmain.lib Qt5Core.lib Qt5Xml.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\CPPProject\_ALL\Win32\Release\XMLTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\CPPProject\_ALL\Win32\Release\XMLTest.lib" /MACHINE:X86 /SAFESEH Release\XMLTest.res
+         Release\main.obj
+     1>Qt5Core.lib(Qt5Core.dll) : fatal error LNK1112: 模块计算机类型“x64”与目标计算机类型“X86”冲突
+     1>已完成生成项目“C:\CPPProject\_ALL\XMLTest\XMLTest.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.61
